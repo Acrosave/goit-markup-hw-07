@@ -1,0 +1,40 @@
+.customers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customers .container h2 {
+  color: $color-principal-texto;
+  font-size: 32px;
+  font-weight: 700px;
+  padding-top: 60px;
+  text-align: center;
+}
+.customers .container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding-bottom: 151px;
+  padding-top: 45px;
+}
+.customers .container ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: solid 1px $iconos;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 92px;
+  width: 170px;
+}
+.customers .container ul li:hover {
+  border: solid 1px $color-web;
+}
+.customers .container ul li .icon-customer {
+  fill: $iconos;
+}
+.customers .container ul li:hover .icon-customer {
+  fill: $color-web;
+}

@@ -1,0 +1,28 @@
+.image__absolute {
+  position: absolute;
+  bottom: 0px;
+  background: rgba(47, 48, 58);
+  opacity: 0.8;
+}
+.image__relative {
+  position: relative;
+}
+section .container h2 {
+  color: $color-principal-texto;
+  font-size: 36px;
+  font-weight: 700px;
+  padding: 30px 0;
+  text-align: center;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+.image__image-container {
+  flex-basis: calc((100% - 46px) / 3);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
