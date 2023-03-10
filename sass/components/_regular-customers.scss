@@ -5,10 +5,13 @@
 }
 .customers .container h2 {
   color: $color-principal-texto;
-  font-size: 32px;
+  font-size: 36px;
+  line-height: 1.16;
   font-weight: 700px;
-  padding-top: 60px;
   text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  letter-spacing: 0.03em;
 }
 .customers .container ul {
   display: flex;
@@ -16,7 +19,7 @@
   justify-content: space-between;
   list-style: none;
   padding-bottom: 151px;
-  padding-top: 45px;
+  padding-top: 50px;
 }
 .customers .container ul li {
   display: flex;

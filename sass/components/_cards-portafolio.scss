@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   border: 1px solid #eeeeee;
-  flex-basis: calc((100% - 60px) / 3);
 }
 .container-card:hover {
   cursor: pointer;
@@ -31,7 +30,6 @@
   color: $color-segundo-texto;
 }
 .container-card__card-body {
-  margin-bottom: 5px;
   padding: 20px 24px;
 }
 .container-card__card-animation {

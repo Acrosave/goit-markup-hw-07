@@ -59,7 +59,7 @@ section .backdrop .modal .btn-modal:hover .icon-close {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
   text-align: left;
   letter-spacing: 0.03em;
   color: $color-principal-texto;
@@ -70,7 +70,7 @@ section .backdrop .modal .btn-modal:hover .icon-close {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: $color-segundo-texto;
   top: 357px;
@@ -83,7 +83,7 @@ section .backdrop .modal .btn-modal:hover .icon-close {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.16;
   letter-spacing: 0.01em;
   color: $color-segundo-texto;
 }
@@ -126,8 +126,6 @@ textarea:focus {
   position: absolute;
   top: 420px;
   margin-left: 120px;
-  width: 200px;
-  height: 50px;
   background: $color-web;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -135,10 +133,11 @@ textarea:focus {
   font-style: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   color: $color-primario-fondo-pantalla;
   border-style: none;
   cursor: pointer;
+  padding: 10px 80px;
 }
 .modal-form-coment {
   position: relative;

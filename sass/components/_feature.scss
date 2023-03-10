@@ -14,7 +14,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   background-color: $color-work;
   border-radius: 15px;
   height: 120px;
@@ -32,7 +31,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: $color-segundo-texto;
 }
@@ -43,7 +42,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
   padding-top: 25px;
